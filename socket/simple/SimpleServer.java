@@ -6,7 +6,7 @@ import java.net.Socket;
 
 /**
  * Created by aq on 2/16/16.
- * A Simple Socket Server.
+ * A simple socket server.
  */
 public class SimpleServer {
     public static void main(String[] args) throws IOException {
@@ -19,5 +19,4 @@ public class SimpleServer {
         System.out.println("Client send: " + reader.readLine());
         writer.println("Server send back.");
     }
-
 }
